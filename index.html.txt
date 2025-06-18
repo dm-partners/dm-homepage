@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>D.M.Partners株式会社</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 2em 1em;
+      text-align: center;
+    }
+    nav {
+      background: #005599;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      display: inline-block;
+      padding: 1em;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #003366;
+    }
+    main {
+      padding: 2em;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    section {
+      margin-bottom: 3em;
+    }
+    footer {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 1em;
+      font-size: 0.8em;
+    }
+    @media screen and (max-width: 600px) {
+      nav a {
+        display: block;
+        padding: 0.8em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>D.M.Partners株式会社</h1>
+    <p>信頼と共創で未来を創る</p>
+  </header>
+
+  <nav>
+    <a href="#about">会社概要</a>
+    <a href="#services">サービス</a>
+    <a href="#message">代表挨拶</a>
+    <a href="#contact">お問い合わせ</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>会社概要</h2>
+      <p>
+        <strong>会社名：</strong> D.M.Partners株式会社<br>
+        <strong>所在地：</strong> 東京都青梅市<br>
+        <strong>事業内容：</strong> 経営コンサルティング（人事業務全般のコンサルティングおよびアドバイザリー）
+      </p>
+    </section>
+
+    <section id="services">
+      <h2>サービス内容</h2>
+      <p>
+        D.M.Partners株式会社は、企業の人事領域に特化した経営コンサルティングおよびアドバイザリーサービスを提供しています。<br><br>
+        主な支援内容：
+        <ul>
+          <li>人事制度設計・運用支援</li>
+          <li>採用戦略の立案と実行支援</li>
+          <li>人材育成・評価制度構築</li>
+          <li>組織改革とマネジメント改善</li>
+        </ul>
+        クライアントの課題に寄り添い、実行までサポートいたします。
+      </p>
+    </section>
+
+    <section id="message">
+      <h2>代表挨拶</h2>
+      <p>
+        私たちD.M.Partnersは、変化の激しい経営環境の中で、組織の中核をなす「人と組織」の可能性を最大限に引き出すことを目指しています。<br>
+        経営者や人事担当者の皆様と共に課題を見つけ、解決へと導く“実践的なパートナー”でありたいと考えています。<br><br>
+        今後ともどうぞよろしくお願い申し上げます。
+        <br><br>
+        代表取締役　村木 大輔
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>お問い合わせ</h2>
+      <p>
+        お問い合わせは、以下の連絡先までお気軽にご連絡ください。<br><br>
+        📞 <strong>080-4116-06191</strong><br>
+        📧 <strong><a href="mailto:info@example.com">info@example.com</a></strong>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 D.M.Partners株式会社. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
